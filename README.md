@@ -39,6 +39,10 @@ The target column is specified as y. Maximum concurrent trials: 5, in accordance
 A compute cluster is required to run the AutoML job. The Standard_D2S_v3 virtual machine size is selected to provide optimal performance.
 After reviewing all AutoML configuration settings, the job is submitted for execution. Upon completion of the AutoML run, the best-performing model is identified as a VotingEnsemble, based on the selected evaluation metric.
 
+<img width="1052" height="516" alt="image" src="https://github.com/user-attachments/assets/3c653d66-b802-4cb4-945f-dfc5a1f484b6" />
+
+
+
 3. Deployment of the Best Model
 
 The best model is deployed as a web service with the following settings:
