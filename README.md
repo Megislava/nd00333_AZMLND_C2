@@ -75,13 +75,14 @@ To load the API definition, the following URL is entered: `http://localhost:8000
 
 Once loaded, all available endpoints and their input and output schemas can be explored. The endpoint.py script is used to send inference requests to the deployed endpoint. 
 
-<img width="515" height="55" alt="Screenshot 2026-01-28 125305" src="https://github.com/user-attachments/assets/504d20ba-62c8-4997-a6bd-e1e14e13c1c6" />
+<img width="555" height="92" alt="image" src="https://github.com/user-attachments/assets/92b04beb-c9cc-43df-94ee-58f95a13d330" />
 
 
 6. Creating and Publishing a Pipeline
 
 The Jupyter notebook aml-pipelines-with-automated-machine-learning-step.ipynb is used to create and publish an Azure Machine Learning pipeline. Using the Python SDK, the pipeline automates model training, selection, deployment, and consumption for the bank marketing dataset, enabling repeatable and scalable execution of the end-to-end workflow. Several fields are updated to match the existing workspace configuration.
 The script for loading the test dataset is replaced because the original public dataset path is inaccessible. Instead, the dataset is loaded directly from the workspace.
+
 <img width="934" height="295" alt="Screenshot 2026-01-28 130949" src="https://github.com/user-attachments/assets/e1bc70c7-9006-496a-9071-cce4497a79c5" />
 
 ## Screen Recording
