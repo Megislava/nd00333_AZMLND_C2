@@ -48,7 +48,7 @@ After reviewing all AutoML configuration settings, the job is submitted for exec
 The best model is deployed as a web service with the following settings:
 The deployment completes successfully. By default, Application Insights is disabled.
 
-<img width="1038" height="361" alt="Screenshot 2026-01-28 114948" src="https://github.com/user-attachments/assets/7c35deeb-4781-49b5-9576-64db038470e8" />
+<img width="922" height="527" alt="image" src="https://github.com/user-attachments/assets/ba3bd7fc-5270-4d26-b9b1-295de3b3ec68" />
 
 
 4. Enabling Logging
