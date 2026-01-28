@@ -84,6 +84,9 @@ The Jupyter notebook aml-pipelines-with-automated-machine-learning-step.ipynb is
 The script for loading the test dataset is replaced because the original public dataset path is inaccessible. Instead, the dataset is loaded directly from the workspace.
 
 <img width="934" height="295" alt="Screenshot 2026-01-28 130949" src="https://github.com/user-attachments/assets/e1bc70c7-9006-496a-9071-cce4497a79c5" />
+<img width="1084" height="530" alt="image" src="https://github.com/user-attachments/assets/1f456cf7-0088-4e99-a752-17f535084213" />
+
+
 
 ## Screen Recording
 Due to company policy restrictions, screen recording is not permitted in the working environment. As a result, a video recording of the project execution cannot be provided. Instead, the project’s functionality and workflow are demonstrated through detailed screenshots and comprehensive step-by-step explanations included throughout this README.
