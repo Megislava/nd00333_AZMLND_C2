@@ -1,6 +1,3 @@
-*NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
-
-
 # Operationalizing Machine Learning
 
 This project centers on a bank marketing campaign and aims to predict whether a client will subscribe to a term deposit based on data from direct marketing activities, specifically phone calls. An automated machine learning (AutoML) solution in Azure is used to address this task. The dataset, sourced from the UCI Machine Learning Repository, is uploaded to Azure Machine Learning Studio, where an AutoML job is executed to identify the most suitable predictive model. The selected model is then deployed as a REST endpoint for real-time inference. In addition, a machine learning pipeline is implemented to automate the workflow from data preprocessing through model training to deployment, ensuring repeatability, scalability, and maintainability. Overall, the project demonstrates the complete lifecycle of a machine learning solution, from data preparation and model development to deployment and integration into a production environment.
@@ -22,9 +19,12 @@ The project is completed using the provided lab environment. As a result, this s
 <img width="884" height="608" alt="Screenshot 2026-01-28 104420" src="https://github.com/user-attachments/assets/751aa798-cb97-4e81-93a8-7b8d1cc82087" />
 
 
-3. Automated ML Experiment
+2. Automated ML Experiment
 The Azure Machine Learning Studio graphical user interface is used to configure and execute an Automated Machine Learning (AutoML) experiment.
 The dataset is registered by uploading the CSV file obtained from the UCI Machine Learning Repository ([https://archive.ics.uci.edu/dataset/222/bank+marketing](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv)).
+<img width="1120" height="569" alt="image" src="https://github.com/user-attachments/assets/ebdc2c39-f520-437b-acba-5405b4f60c36" />
+
+
 The task type is set to classification, and the registered dataset is selected when creating the AutoML job.
 <img width="1034" height="465" alt="Screenshot 2026-01-28 105349" src="https://github.com/user-attachments/assets/e4f917f5-bb70-45f2-8aaa-17eb3e232e6c" />
 <img width="949" height="416" alt="Screenshot 2026-01-28 110209" src="https://github.com/user-attachments/assets/5cb5a022-335b-428c-abc0-8153b2e02a44" />
@@ -33,7 +33,7 @@ The target column is specified as y. Maximum concurrent trials: 5, in accordance
 A compute cluster is required to run the AutoML job. The Standard_D2S_v3 virtual machine size is selected to provide optimal performance.
 After reviewing all AutoML configuration settings, the job is submitted for execution. Upon completion of the AutoML run, the best-performing model is identified as a VotingEnsemble, based on the selected evaluation metric.
 
-5. Deployment of the Best Model
+3. Deployment of the Best Model
 The best model is deployed as a web service with the following settings:
 The deployment completes successfully. By default, Application Insights is disabled.
 <img width="1038" height="361" alt="Screenshot 2026-01-28 114948" src="https://github.com/user-attachments/assets/7c35deeb-4781-49b5-9576-64db038470e8" />
