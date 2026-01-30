@@ -81,11 +81,13 @@ Once loaded, all available endpoints and their input and output schemas can be e
 6. Creating and Publishing a Pipeline
 
 The Jupyter notebook aml-pipelines-with-automated-machine-learning-step.ipynb is used to create and publish an Azure Machine Learning pipeline. Using the Python SDK, the pipeline automates model training, selection, deployment, and consumption for the bank marketing dataset, enabling repeatable and scalable execution of the end-to-end workflow. Several fields are updated to match the existing workspace configuration.
-The script for loading the test dataset is replaced because the original public dataset path is inaccessible. Instead, the dataset is loaded directly from the workspace.
 
 <img width="934" height="295" alt="Screenshot 2026-01-28 130949" src="https://github.com/user-attachments/assets/e1bc70c7-9006-496a-9071-cce4497a79c5" />
-<img width="1084" height="530" alt="image" src="https://github.com/user-attachments/assets/1f456cf7-0088-4e99-a752-17f535084213" />
+<img width="535" height="241" alt="image" src="https://github.com/user-attachments/assets/20d9891f-0fa4-4272-b118-68d6c5df64e0" />
 
+The script for loading the test dataset is replaced because the original public dataset path is inaccessible. Instead, the dataset is loaded directly from the workspace.
+
+<img width="536" height="261" alt="image" src="https://github.com/user-attachments/assets/e8671eca-1235-48bb-95f4-95eb17672a36" />
 
 
 ## Screen Recording
